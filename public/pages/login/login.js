@@ -3,7 +3,8 @@ const loginUsername = document.getElementById("username");
 const loginPassword = document.getElementById("password");
 
 loginButton.addEventListener("click", login);
-const baseUrl = "http://localhost:8080/"
+//const baseUrl = "http://localhost:8080/"
+const baseUrl = "http://mandatory1-2022.herokuapp.com/";
 
 async function login(e){
     e.preventDefault()

@@ -3,7 +3,9 @@ const postInput = document.getElementById("input");
 const postInputTitle = document.getElementById("inputTitle");
 const postInputSubject = document.getElementById("inputSubject");
 
-const baseUrl = "http://localhost:8080/"
+//const baseUrl = "http://localhost:8080/"
+const baseUrl = "http://mandatory1-2022.herokuapp.com/"
+
 postButton.addEventListener("click", postContent);
 
 async function postContent(e){
