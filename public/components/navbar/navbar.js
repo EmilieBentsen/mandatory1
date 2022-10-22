@@ -1,7 +1,7 @@
 const navDiv = document.getElementById("navbar");
 
 //const baseUrlNav = "http://localhost:8080/";
-const baseUrlNav = "http://mandatory1-2022.herokuapp.com/"
+const baseUrlNav = "https://mandatory1-2022.herokuapp.com/"
 window.addEventListener("load", getFiles)
 window.addEventListener("load", loggedIn)
 window.addEventListener('load', (event) => {
@@ -23,7 +23,7 @@ async function getFiles(e){
         const newHref = document.createElement("a")
         //${file.filename}
         //newHref.href = `http://localhost:8080/pages/contribute/${file}`;
-        newHref.href = `http://mandatory1-2022.herokuapp.com/pages/contribute/${file}`;
+        newHref.href = `https://mandatory1-2022.herokuapp.com/pages/contribute/${file}`;
         const filename = file.split('.')[0];
         newHref.innerText = `${filename}`;
         navDiv.appendChild(newHref);
