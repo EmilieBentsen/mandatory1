@@ -1,0 +1,131 @@
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #192E2F;
+    text-align: center;
+    margin: 0;
+  }
+  
+  footer {
+    height: 4vh;
+  }
+
+  main {
+    text-align: center;
+    color: #e8fef3;
+    min-height: calc(100vh - 45vh);
+    width: 100%;
+
+  }
+
+  #post{
+    text-align: center;
+
+    
+  }
+
+  #remember {
+    height: 20px;
+  }
+
+  #username {
+    width: 40%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  #password {
+    width: 40%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  #inputSubject  {
+    width: 60%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  #inputTitle {
+    width: 60%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  #input {
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  #label {
+    color: #e8fef3;
+    font-size: 20px;
+    height: 200px;
+  }
+
+  button {
+    background-color: #60eab0; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  img {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+h3 {
+  margin-top: 60px;
+}
+
+#copyright-year {
+  color: white;
+}
+
+
+
